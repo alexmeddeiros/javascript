@@ -1,0 +1,37 @@
+@media(max-width:900px){
+    #page-home{
+        background-position-x: 70vw;
+    }
+
+    #page-home .content{
+        align-items: center;
+        text-align: center;
+    }
+
+    #page-home header a{
+        position: absolute; /*é como se colocasse uma folha acima da outra e colocasse esse conteudo na de cima */
+        bottom: 48px; /* dai é so colocar onde vc quer que ele fique*/
+
+        /* Alinhar o link */
+        left:50%;
+        transform: translate(-50%); /*pega o meio do conteudo e usa o left apartor dele. assim deixando no meio*/
+    }
+
+    #page-home main{
+        align-items: center;
+    }
+}
+
+@media(min-width:1700px){
+    #page-home{
+        background-position-x: 70vw;
+    }   
+}
+
+@media(max-height:700px){
+    #page-home{
+        background-position-y: 200px;
+    }   
+}
+
+
